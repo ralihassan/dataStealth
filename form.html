@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Form</title>
+  <link rel="stylesheet" href="form-style.css">
+  <script src="form-script.js"></script>
+</head>
+<body>
+  <form action="/submit" method="post">
+    <h1 class="center-text">User Form</h1>
+    
+    <div>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" aria-required="true" placeholder="Enter your full name" aria-describedby="name-message">
+      <div id="name-message" class="hidden" aria-live="polite">Please enter your full name.</div>
+    </div>  
+    <br>
+
+    <div>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" aria-required="true" placeholder="Enter your email" aria-describedby="email-message">
+      <div id="email-message" class="hidden" aria-live="polite">Please enter a valid email address.</div>
+    </div>
+    <br>
+
+    <div>
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" aria-required="true" placeholder="Enter a secure password" aria-describedby="password-message">
+      <div id="password-message" class="hidden" aria-live="polite">Password must be at least 8 characters long and include a number and a special character.</div>
+    </div>
+    <br>
+
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>

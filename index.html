@@ -1,0 +1,22 @@
+<!-- parent.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Secure Form</title>
+  <script src="parent-script.js"></script>
+  <link rel="stylesheet" href="parent-style.css">
+</head>
+<body>
+  <h1 style="text-align: center;">Secure Form Integration</h1>
+  <iframe src="form.html" id="formIframe" class="iframe" sandbox="allow-forms allow-scripts allow-same-origin"></iframe>
+
+  <div id="messageModal" class="modal">
+    <div class="modal-content">
+      <span class="close-button">&times;</span>
+      <p id="modalMessage"></p>
+    </div>
+  </div>
+</body>
+</html>
