@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project is a technical assessment for the Integration Engineer position at DataStealth. The primary objective is to create a secure and accessible web form with client-side validation, styled using CSS, and integrated within a parent page using an iframe. The project demonstrates proficiency in JavaScript, HTML, CSS, and basic Linux file management.
+The primary objective is to create a secure and accessible web form with client-side validation, styled using CSS, and integrated within a parent page using an iframe. The project demonstrates proficiency in JavaScript, HTML, CSS, and basic Linux file management.
 
 ## Project Structure
 
